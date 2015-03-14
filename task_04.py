@@ -23,5 +23,5 @@ def process_data(data):
     for total in data:
         value += total
 
-    average = float(value/(len(data)))
+    average = (value/float(len(data)))
     return value, average
