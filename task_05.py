@@ -8,11 +8,10 @@ def flip_keys(to_flip):
     """
     counter = 0
     for item in to_flip:
-        counter += 1
-        item[::-counter]
-        
+       counter += 1
+        to_flip[counter] = item[::-1]
         #counter += 1
-        print (item[::-1])
+        print (to_flip[::-1])
 
     
     
