@@ -6,9 +6,12 @@
 def flip_keys(to_flip):
     """
     """
-    #to_flip[::-1]
-    counter = []
+    counter = 0
     for item in to_flip:
-       counter.extend(item[::-1])
-    print counter
+        counter += 1
+        to_flip[counter] = to_flip[::-counter] #using counter as index to
+        # replace the values of items
+    print to_flip
 
+    
+    
