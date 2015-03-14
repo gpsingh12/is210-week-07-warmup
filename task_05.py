@@ -22,6 +22,6 @@ def flip_keys(to_flip):
     """
     counter = 0
     for item in to_flip:
-        to_flip[counter] = item[::-1] 
+        to_flip[counter] = item[::-1]
         counter += 1
         print to_flip
